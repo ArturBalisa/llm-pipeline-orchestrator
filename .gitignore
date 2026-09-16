@@ -1,0 +1,13 @@
+.DS_Store
+*.db
+.env
+company.json
+signature.png
+output/*.tex
+output/*.pdf
+__pycache__/
+src/candidate_cv.py
+output/
+templates/
+TODO.txt
+logs/

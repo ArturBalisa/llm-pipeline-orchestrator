@@ -1,0 +1,40 @@
+{
+  "extract_keywords": {
+    "primary_model": "gemini-3.6-flash",
+    "fallback_model": "gemini-3.5-flash-lite",
+    "api_key_env_var": "GEMINI_API_KEY_1",
+    "max_tokens": 1500
+  },
+
+  "classify_german_level": {
+    "primary_model": "gemini-3.5-flash",
+    "fallback_model": "gemini-3.5-flash-lite",
+    "api_key_env_var": "GEMINI_API_KEY_2",
+    "max_tokens": 800
+  },
+
+  "calculate_affinity_score": {
+    "primary_model": "gemini-3.7-flash",
+    "fallback_model": "gemini-3.6-flash",
+    "api_key_env_var": "GEMINI_API_KEY_3",
+    "max_tokens": 2000
+  },
+
+  "generate_cover_letter_text": {
+    "model": "claude-sonnet-5",
+    "api_key_env_var": "ANTHROPIC_API_KEY",
+    "max_tokens": 2000,
+    "max_cover_letters_per_run": 5
+  },
+
+  "screening": {
+    "accepted_german_levels": ["none", "A1", "A2", "B1"],
+    "min_affinity_score": 5,
+    "skip_affinity_gate": true,
+    "skip_keywords_gate": true,
+    "excluded_title_keywords": ["PhD", "Master Thesis", "Masterarbeit", "Doctoral", "Promotion"]
+  }
+}
+
+
+

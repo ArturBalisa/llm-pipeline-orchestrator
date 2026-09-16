@@ -1,0 +1,16 @@
+{
+  "company_name": "Example Company GmbH",
+  "company_address": "Example Street 1",
+  "company_zip": "00000",
+  "company_city": "Example City",
+  "company_country": "Germany",
+  "listing_url": "https://example.com/api/jobs",
+  "job_base_url": "https://example.com/en/job",
+  "referer": "https://example.com/careers",
+  "job_filter": {
+    "data.jobField": ["Engineering"],
+    "data.entryLevel": ["Student"]
+  },
+  "search_index_name": "example_en",
+  "ats_posting_url": "https://api.example-ats.com/v1/companies/ExampleCompany/postings/{id}"
+}
